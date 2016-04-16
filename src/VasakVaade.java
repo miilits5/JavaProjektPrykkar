@@ -10,7 +10,7 @@ import java.io.File;
 
 
 /**
- * BorderPane Top view
+ * BorderPane vasak vaade
  */
 public class VasakVaade {
     static Konteiner paberPapp = new Konteiner("Paber ja papp"); //loon uue Konteiner tyypi objekti, mille liik on paber ja papp
@@ -70,10 +70,7 @@ public class VasakVaade {
             konteinerLayout.setSpacing(5);
             konteinerLayout.setPadding(new Insets(10,15,15,15));
             Label konteinerLabel = new Label(konteiner.prindiKonteineriList().toString());
-            ImageView imv = new ImageView(); //pildivaade
-            Pane pictureRegion = new Pane();
-            pictureRegion.getChildren().add(imv);
-            konteinerLayout.getChildren().addAll(konteinerLabel, pictureRegion);
+            konteinerLayout.getChildren().addAll(konteinerLabel);
             Scene konteinerScene = new Scene(konteinerLayout, konteinerLayout.getPrefWidth(), konteinerLayout.getPrefHeight());
 
             konteinerLava= new Stage();

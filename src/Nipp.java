@@ -7,7 +7,7 @@ import java.util.Scanner;
 Nippide klass. Iga nipp koosneb String tüüpi nõuandest, mida kuvatakse nupuvajutusel juhuslikult.
  */
 public class Nipp {
-    public String nipp;  //nipp - n6uanne, mis aitab vähem prygi tekitada, keskkonnas6bralikum olla.
+    public String nipp;  //nipp - n6uanne, mis aitab vähem prygi tekitada, keskkonnasõbralikum olla.
     Nipp(String nipp) {  //nipi konstruktor
         this.nipp = nipp;
     }
@@ -18,7 +18,7 @@ public class Nipp {
         this.nipp = nipp;
     }
 
-    // nippide lugemine failist ja yhe juhusliku v22rt nipi tagastamine :)
+    // nippide lugemine failist ja yhe juhusliku väärt nipi tagastamine :)
     public String nippideJarjend () throws Exception {
         File nippideFail = new File("nipid.txt"); // txt failid peavad olema proj. samas kaustas antud juhul
         Scanner sc = new Scanner(nippideFail);

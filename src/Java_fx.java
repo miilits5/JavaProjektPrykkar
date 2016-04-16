@@ -4,7 +4,8 @@ import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
 /**
- * ITK Java kursuse i200 iseseisev projekt. Autor: Kirke Narusk, sügis-talv 2015.
+ * ITK Java kursuse i200 iseseisev projekt. Autor: Tarvi Tihhanov, Kirke Narusk, sügis-talv 2015. Alustasime koos projekti ja paljud asjad koos tehtud. Kuna Kirke jõudis töödega eest ära joosta ostsutamise projekti lahku lüüa.
+ * Sai tehtud ka piisavalt vara commite mille tõttu lubasite lisaks 10 punkti projektile anda.
  */
 public class Java_fx extends Application {
     Stage primaryStage;

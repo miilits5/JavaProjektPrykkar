@@ -1,3 +1,2 @@
-# JavaProjektPrykkar
-Õpime progema javas ja
-teeme programmi, mis aitab prügi sorteerida
+﻿# JavaProjektPrykkar
+Õpime Teeme prügisorteerimise programmi koos jäätmejaama infoga.

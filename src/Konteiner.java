@@ -6,9 +6,7 @@ import java.util.Scanner;
 
 /**
  Prügikonteinerite klass: igal konteineril on liik (nt "ohtlikud jäätmed" või "paber ja papp") ja prügi nimekiri, mis sinna konteinerisse sobib.
- Lisaks meetodid prügi nimekirja failist lugemiseks ja kuvamiseks, kontrollimiseks, kas kasutaja poolt sisestatud prügi sobib sellesse konteinerisse või
- on konteineris sarnase nimega prügi, mida kasutaja võis mõelda.
- Lisaks meetodid Prykkari äraarvamise mängu tarvis.
+ Lisaks meetodid prügi nimekirja failist lugemiseks ja kuvamiseks, kontrollimiseks, kas kasutaja poolt sisestatud prügi sobib sellesse konteinerisse.
  */
 public class Konteiner {
     public String liik; //konteineri liik

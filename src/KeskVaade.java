@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * BorderPane Left view
+ * BorderPane kesk vaade
  */
 public class KeskVaade {
     public static VBox centerVbox;
@@ -18,9 +18,9 @@ public class KeskVaade {
 
     //MEETODID:
     public static void keskAla() {
-        centerVbox = new VBox(); //l2heb borderPane'i vasakule
+        centerVbox = new VBox(); //l2heb borderPane'i keskele
         centerVbox.setSpacing(7);
-        centerVbox.setPadding(new Insets(15, 0, 0, 0)); //top, right, bottom, left
+        centerVbox.setPadding(new Insets(15, 0, 0, 0));
         centerVbox.setPrefWidth(220);
 
         kysimus = new Label("Sisesta prügi mida soovid sorteerida!");

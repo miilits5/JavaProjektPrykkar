@@ -3,7 +3,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 
 /**
- * BorderPane Bottom view
+ * BorderPane alumine vaade
  */
 public class AlumineVaade {
     static Button nipidNupp;

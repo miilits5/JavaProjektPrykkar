@@ -6,7 +6,7 @@ import javafx.scene.control.Tooltip;
  Nupu klass sarnaste nuppude loomiseks
  */
 
-//copyright Kirke Narusk
+//copyright Kirke Narusk, Tarvi ei ole siin midagi muutnud ega lisanud, Kirke poolt loodud klass
 public class Nupp extends Button{
     //nupu konstruktor nime, vihje ja värvi jaoks
     Nupp(String nimi, String tip, String varv) {
