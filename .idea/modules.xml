@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaProjektPrykkar.iml" filepath="$PROJECT_DIR$/JavaProjektPrykkar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaprojekt.iml" filepath="$PROJECT_DIR$/javaprojekt.iml" />
     </modules>
   </component>
 </project>

@@ -26,7 +26,7 @@ public class KeskVaade {
         kysimus = new Label("Sisesta prügi mida soovid sorteerida!");
         kasutajaInput = new TextField(); //kasutaja sisestab prygi, mida soovib sorteerida
         kasutajaInput.setMaxWidth(200);
-        sorteeriNupp = new Button("OTSI");
+        sorteeriNupp = new Button("Sorteeri");
         sorteeriNupp.setStyle("-fx-font: 12 Verdana");
 
         centerVbox.getChildren().addAll(kysimus, kasutajaInput, sorteeriNupp);
